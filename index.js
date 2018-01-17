@@ -3,7 +3,10 @@ module.exports = (promises = []) => {
     return new Promise((resolve, reject) => {
         try {
             promises
-                .map((promise) => promise instanceof Promise ? promise : Promise.resolve(promise))
+                .map((promise) => promise instanceof Promise ?
+                    promise :
+                    Promise.resolve(promise)
+                )
                 .forEach((promise) => promise
                     .then(resolve)
                     .catch((error) => console.log('A promise is rejected: ', error))
