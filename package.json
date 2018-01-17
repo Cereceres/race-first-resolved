@@ -1,0 +1,26 @@
+{
+  "name": "race-first-resolved",
+  "version": "0.0.1",
+  "description": "resolve the promise when any promise in array is resolved",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cereceres/race-first-resolved.git"
+  },
+  "keywords": [
+    "resolve",
+    "any",
+    "array",
+    "promise",
+    "first"
+  ],
+  "author": "Jesus Cereceres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cereceres/race-first-resolved/issues"
+  },
+  "homepage": "https://github.com/Cereceres/race-first-resolved#readme"
+}
